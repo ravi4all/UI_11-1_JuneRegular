@@ -1,0 +1,28 @@
+.secondary_class {
+    width: 1000px;
+}
+
+div {
+    /*height: 200px;*/
+    background-color: aqua;
+}
+
+#div_1, #div_2, #div_3, #div_4, #div_5 {
+    height: 200px;
+}
+
+#div_1 {
+    background-color: teal;
+}
+#div_2 {
+    background-color: burlywood;
+}
+
+.class_1 {
+    background-color: tomato;
+    width: 400px;
+   /*height: 400px;*/
+}
+.class_2 {
+    width: 800px;
+}

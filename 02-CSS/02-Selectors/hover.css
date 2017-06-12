@@ -1,0 +1,13 @@
+ul li:nth-child(odd){
+    background-color: antiquewhite;
+}
+
+ul li:nth-child(even){
+    background-color: cornflowerblue;
+}
+
+ul li:hover{
+    background-color: chocolate;
+    color: red;
+    font-size: 20px;
+}

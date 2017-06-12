@@ -1,0 +1,21 @@
+#parent p {
+    font-size: 20px;
+    color: red;
+}
+
+#parent > p {
+    color: green;
+}
+
+#parent + p {
+    color: darkmagenta;
+}
+
+p {
+    color: darkslategrey;
+}
+
+h3 ~ img {
+    width: 200px;
+    height: 200px;
+}
