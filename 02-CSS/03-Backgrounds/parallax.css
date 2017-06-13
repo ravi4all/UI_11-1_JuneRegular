@@ -1,0 +1,39 @@
+body {
+    margin: 0px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url("http://cdn.deccanchronicle.com/sites/default/files/Virat%20Kohli%20Bengaluru%20Test_PTI.jpg");
+}
+p {
+    color: #fff;
+}
+div {
+    height: 550px;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin-bottom: 300px;
+}
+
+#div_1 {
+    background-image: url("../../images/WebImages/awesome-wallpapers-6482-6759-hd-wallpapers.jpg");
+}
+
+#div_2 {
+    background-image: url("../../images/WebImages/wild_tiger.jpg");
+}
+
+#div_3 {
+    background-image: url("../../images/WebImages/batman_arkham_knight-1366x768.jpg");
+}
+
+#div_4 {
+    background-image: url("../../images/WebImages/chris_hemsworth__angry_thor.jpg");
+}
+
+#div_5 {
+    background-image: url("../../images/WebImages/the-joker-black-white.jpeg");
+}
+
+#div_6 {
+    background-image: url("../../images/WebImages/thor-the-dark-world-5a.jpg");
+}

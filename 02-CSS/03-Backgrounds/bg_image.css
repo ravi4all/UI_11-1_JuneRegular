@@ -1,0 +1,16 @@
+body {
+    background-image: url("http://cdn.deccanchronicle.com/sites/default/files/Virat%20Kohli%20Bengaluru%20Test_PTI.jpg");
+    background-size: contain;
+    /*background-size: contain;*/
+    /*background-image: url("https://pbs.twimg.com/profile_images/789817267567472640/BlpcUEvx.jpg");*/
+    /*background-size: 100% 100%;*/
+    /*background-position: top center;*/
+    background-repeat: no-repeat;
+
+    /*background: #99adef url("https://pbs.twimg.com/profile_images/789817267567472640/BlpcUEvx.jpg") no-repeat top
+                    center/cover fixed;*/
+}
+
+div {
+    height: 550px;
+}

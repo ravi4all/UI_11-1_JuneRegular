@@ -1,0 +1,13 @@
+div {
+    height: 300px;
+    width: 400px;
+    border: 2px solid red;
+    /*margin: 10px;
+    padding: 10px;*/
+    /*margin-left: 20px;
+    padding-top: 10px;*/
+    /*margin: 10px 12px 14px 16px;*/
+    /*margin: 10px 12px 14px;*/ /*top left/right bottom*/
+    /*margin: 10px 12px;*/ /*top/bottom right/left*/
+
+}

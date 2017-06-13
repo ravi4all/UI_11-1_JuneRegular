@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: overline;
+    font-family: 'Francois One', sans-serif;
+}
+h1:first-letter {
+    color: blueviolet;
+}
+h1 span {
+    color: crimson;
+}
+h2 {
+    font-family: 'Francois One', sans-serif;
+}
+p {
+    /*font-family: 'Lobster Two', cursive;*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
+
+p:first-line {
+    color: darkblue;
+}
