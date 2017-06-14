@@ -1,0 +1,17 @@
+img[alt="image_1"] {
+    width: 200px;
+    height: 200px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 300px;
+    height: 40px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    background-color: burlywood;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: blanchedalmond;
+}
