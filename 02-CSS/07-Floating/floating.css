@@ -1,0 +1,26 @@
+#two-col-layout {
+    background-color: bisque;
+}
+
+.column_1 {
+    float: left;
+    width: 30%;
+    /*background-color: #99adef;*/
+}
+
+.column_2 {
+    float: right;
+    width: 30%;
+    background-color: #ffc838;
+}
+
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.demo {
+    background-color: red;
+    /*height: 200px;*/
+}

@@ -1,0 +1,34 @@
+.list_1 .fa {
+    color: #000;
+}
+
+.list_2 {
+    list-style: none;
+}
+.list_2 li {
+    font-size: 20px;
+    text-align: center;
+    padding: 8px 0px;
+    height: 20px;
+    width: 40px;
+    background-color: #99adef;
+}
+.list_2 li a {
+    color: #fff;
+}
+
+li.fb {
+    background-color: #3b5998;
+}
+li.tw {
+    background-color: #0084b4;
+}
+li.yt {
+    background-color: #bb0000;
+}
+li.ins {
+    background-color: #ffc838;
+}
+li.link {
+    background-color: #0077B5;
+}
