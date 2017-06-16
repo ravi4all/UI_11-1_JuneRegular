@@ -1,0 +1,11 @@
+#div_1 {
+    height: 500px;
+    border: 1px solid red;
+    position: relative;
+}
+
+#div_1 img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}

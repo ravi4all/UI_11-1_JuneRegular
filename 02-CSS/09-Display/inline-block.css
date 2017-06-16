@@ -1,0 +1,8 @@
+ul li {
+    display: inline-block;
+    margin: 0px 10px;
+    background-color: #ffc838;
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}

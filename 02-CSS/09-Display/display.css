@@ -1,0 +1,15 @@
+h2 {
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+
+a {
+    display: block;
+}
+
+img {
+    display: block;
+}
