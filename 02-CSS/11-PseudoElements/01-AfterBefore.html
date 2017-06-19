@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        p span{
+            position: relative;
+        }
+        p span:before {
+            /*content: 'Read More';*/
+            content: "";
+            background-image: url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-down-01-128.png");
+            height: 30px;
+            width: 30px;
+            background-size: 100% 100%;
+            right: -25%;
+            top: -5px;
+            position: absolute;
+            cursor: pointer;
+        }
+        p span:hover:after {
+            background-image: url("https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-128.png");
+        }
+    </style>
+</head>
+<body>
+
+<h1>After Before</h1>
+
+<p><span>This is a paragraph</span></p>
+<p><span>This is a paragraph</span></p>
+<p><span>This is a paragraph</span></p>
+<p><span>This is a paragraph</span></p>
+<p><span>This is a paragraph</span></p>
+<p><span>This is a paragraph</span></p>
+<p><span>This is a paragraph</span></p>
+<p><span>This is a paragraph</span></p>
+
+</body>
+</html>
