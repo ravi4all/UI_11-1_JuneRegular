@@ -1,0 +1,64 @@
+#banner {
+    position: relative;
+    text-align: center;
+    max-height: 550px;
+}
+#banner img {
+    width: 100%;
+    max-height: inherit;
+}
+
+#banner .wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+#banner .wrapper .inner-wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+#banner .desc {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*#banner .desc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -29px;
+}*/
+#banner h1 {
+    font-size: 50px;
+    color: #fff;
+}
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #0084b4;
+    opacity: 0.5;
+    left: 0px;
+    top: 0px;
+}
+
+
+.menu-btn {
+    padding: 5px;
+    border: 1px solid red;
+    background-color: transparent;
+    cursor: pointer;
+}
+.line {
+    display: block;
+    margin-bottom: 3px;
+    border: 2px solid #000;
+    width: 30px;
+}
