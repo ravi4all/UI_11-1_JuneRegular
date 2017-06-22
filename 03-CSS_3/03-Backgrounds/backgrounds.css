@@ -1,0 +1,31 @@
+#div_1 {
+    height: 400px;
+    /*background-color: #0084b4;*/
+    background-color: rgba(0,0,0,0.5);
+    /*opacity: 0.5;*/
+}
+#div_1 img {
+    height: 400px;
+    width: 400px;
+}
+
+img[alt="image_1"] {
+    position: absolute;
+    top: 12.5%;
+    height: 400px;
+    z-index: -1;
+    right: 8px;
+}
+
+
+#div_2,#div_3,#div_4,#div_5,#div_6 {
+    height: 500px;
+    background-image: url("../../images/WebImages/thor-the-dark-world-5a.jpg"),
+    url("../../images/WebImages/batman_arkham_knight-1366x768.jpg"),
+    url("../../images/WebImages/awesome-wallpapers-6482-6759-hd-wallpapers.jpg"),
+    url("../../images/WebImages/wild_tiger.jpg");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left, bottom right;
+    background-attachment: fixed, scroll, scroll, fixed;
+}

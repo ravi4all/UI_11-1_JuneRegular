@@ -1,0 +1,45 @@
+div {
+    height: 250px;
+    width: 250px;
+    margin: 0 auto 20px;
+    border: 2px solid red;
+}
+
+#div_1 {
+    border-radius: 50px;
+}
+#div_2 {
+    /*border-radius: 30px 50px 80px 100px;*/
+    border-radius: 10px 100px;
+    overflow: hidden;
+}
+#div_2 img {
+    height: 100%;
+    width: 100%;
+}
+#div_3 {
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 100px;
+}
+#div_4 {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-image: url("../../images/WebImages/IMG-20140419-WA0002.jpg");
+}
+#div_4:after {
+    content: "";
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    /*opacity: 0;*/
+    display: none;
+}
+#div_4:hover:after {
+    display: block;
+}
