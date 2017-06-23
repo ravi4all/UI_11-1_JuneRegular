@@ -1,0 +1,11 @@
+div {
+    height: 400px;
+    border: 20px solid transparent;
+    /*border-image: linear-gradient(rgba(255,100,0,0.5),
+    rgba(255,255,255,0.5),
+    rgba(0,255,0,0.5)) 10;*/
+    /*border-image: url("../../images/hulk5-18463.gif")*/
+    border-image: url("https://s-media-cache-ak0.pinimg.com/originals/54/e1/41/54e1410544907dceb765c56569aee1f4.png");
+    border-image-slice: 30%;
+    border-image-repeat: round;
+}

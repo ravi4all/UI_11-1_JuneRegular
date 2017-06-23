@@ -1,0 +1,49 @@
+/*input:checked {
+    height: 50px;
+    width: 50px;
+}*/
+
+body {
+    overflow: hidden;
+}
+
+div img {
+    display: none;
+}
+
+input:checked  + div > img {
+    display: block;
+}
+input[type="text"],input[type="password"] {
+    height: 30px;
+    width: 250px;
+}
+
+#login {
+    transform: translate(400px,-420px);
+}
+#login:target {
+    transform: translate(400px,30%);
+    transition: 1s;
+}
+/*#login form{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}*/
+.close:after {
+    content: "x";
+    font-size: 20px;
+    position: absolute;
+    right: 50%;
+    top: 10%;
+    color: red;
+}
+
+
+p:not(.red){
+    color: red;
+}
