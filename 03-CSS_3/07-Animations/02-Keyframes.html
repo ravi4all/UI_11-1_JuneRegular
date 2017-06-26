@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        #div_1 {
+            height: 400px;
+            border: 2px solid red;
+        }
+        #div_1 img {
+            animation: anim_1 infinite alternate 5s;
+            animation-timing-function: linear;
+        }
+        @keyframes anim_1 {
+            0% {
+                transform: translate(0px,0px);
+            }
+            50% {
+                transform: translate(500px,0px) scale(2,2);
+            }
+
+            100% {
+                transform: translate(1120px,0px) scale(1,1);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Keyframes</h1>
+
+<div id="div_1">
+    <img src="../../images/00-22.gif" alt="image"/>
+</div>
+
+</body>
+</html>
