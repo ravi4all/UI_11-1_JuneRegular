@@ -1,0 +1,77 @@
+#container {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+#sun {
+    height: 250px;
+    width: 250px;
+    background-image: url("sun.jpg");
+    background-size: 100% 100%;
+}
+#earth, #jupiter {
+    position: absolute;
+    top: -20px;
+    height: 300px;
+    background-position: center left;
+    background-repeat: no-repeat;
+    animation-name: anim_3d;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+#earth {
+    width: 500px;
+    left: -125px;
+    animation-duration: 10s;
+    background-size: 23% 36%;
+    background-image: url("../../images/00-22.gif");
+}
+
+#jupiter {
+    width: 920px;
+    left: -345px;
+    animation-duration: 40s;
+    animation-name: jupiter;
+    top: 90px;
+    background-size: 13% 35%;
+    background-image: url("jupiter-planet-animation-10.gif");
+}
+#jupiter.orbit {
+    border: 2px solid red;
+    height: 200px;
+    border-radius: 50%;
+}
+
+@keyframes anim_3d {
+    0% {
+        background-position: center left;
+    }
+    50% {
+        background-position: center right;
+    }
+    100% {
+        z-index: -1;
+        background-position: center left;
+    }
+}
+
+
+@keyframes jupiter {
+    0% {
+        background-position: center left;
+    }
+    20% {
+        background-position: center right;
+    }
+    40% {
+        background-position: 800px 49px;
+    }
+    60% {
+        background-position: top left;
+    }
+    100% {
+        z-index: -1;
+        background-position: center left;
+    }
+}

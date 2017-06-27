@@ -16,6 +16,7 @@ body {
     background-image: url("../06-Transformations/sun.jpg");
     background-size: 100% 100%;
     position: absolute;
+    z-index: 1;
     top: 30%;
     left: 40%;
     height: 250px;
@@ -27,8 +28,9 @@ body {
     width: 170px;
     background-image: url("../../images/00-22.gif");
     background-size: 100% 100%;
-    animation: earth infinite 20s linear;
+    animation: earth infinite 10s linear;
     position: relative;
+    z-index: 1;
 }
 
 @keyframes galaxy {
@@ -45,6 +47,7 @@ body {
         transform: translate(100px,270px);
     }
     50% {
+        z-index: 1;
         transform: translate(1000px,270px) scale(0.5,0.5);
     }
     100% {
@@ -54,56 +57,56 @@ body {
 }
 
 
-#img_1 {
-    position: absolute;
-    height: 400px;
-    width: 200px;
-    top: 20%;
+/*#img_1 {*/
+    /*position: absolute;*/
+    /*height: 400px;*/
+    /*width: 200px;*/
+    /*top: 20%;*/
     /*background-image: url("http://orig08.deviantart.net/a5ae/f/2016/075/0/9/iron_man___transparent_by_asthonx1-d9vbl3v.png");*/
-    background-image: url("https://vignette1.wikia.nocookie.net/disney/images/2/2a/PMwIexx.png/revision/latest/scale-to-width-down/250?cb=20130520201910");
-    background-size: 100% 100%;
-    animation: iron_man 5s linear;
-    animation-fill-mode: forwards;
-}
-@keyframes iron_man {
-    0% {
-        transform: translate(400px,-200%);
-    }
-    99% {
-        transform: translate(400px,200px);
-    }
-    100% {
-        transform: translate(400px,-200%);
-    }
-}
+    /*background-image: url("https://vignette1.wikia.nocookie.net/disney/images/2/2a/PMwIexx.png/revision/latest/scale-to-width-down/250?cb=20130520201910");*/
+    /*background-size: 100% 100%;*/
+    /*animation: iron_man 5s linear;*/
+    /*animation-fill-mode: forwards;*/
+/*}*/
+/*@keyframes iron_man {*/
+    /*0% {*/
+        /*transform: translate(400px,-200%);*/
+    /*}*/
+    /*99% {*/
+        /*transform: translate(400px,200px);*/
+    /*}*/
+    /*100% {*/
+        /*transform: translate(400px,-200%);*/
+    /*}*/
+/*}*/
 
 
-#flying_ironman {
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    top: 0px;
-    background-image: url("../../images/NewImages/LziFSQN.png");
-    background-size: 100% 100%;
-    transform: scale(0.01,0.01) translate(550px,250px);
-    left: 38%;
-    top: 30%;
-    animation: flying_ironman 30s linear;
-}
+/*#flying_ironman {*/
+    /*height: 100px;*/
+    /*width: 100px;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*background-image: url("../../images/NewImages/LziFSQN.png");*/
+    /*background-size: 100% 100%;*/
+    /*transform: scale(0.01,0.01) translate(550px,250px);*/
+    /*left: 38%;*/
+    /*top: 30%;*/
+    /*animation: flying_ironman 30s linear;*/
+/*}*/
 
-@keyframes flying_ironman {
-    0% {
-        transform: scale(0.01,0.01);
-        z-index: -1;
-    }
-    50% {
-        left: 10%;
-        top: 35%;
-        transform: scale(1.5,1.5) rotateY(180deg);
-    }
-    100% {
-        left: 90%;
-        top: 100%;
-        transform: scale(3,3) rotateY(180deg);
-    }
-}
+/*@keyframes flying_ironman {*/
+    /*0% {*/
+        /*transform: scale(0.01,0.01);*/
+        /*z-index: -1;*/
+    /*}*/
+    /*50% {*/
+        /*left: 10%;*/
+        /*top: 35%;*/
+        /*transform: scale(1.5,1.5) rotateY(180deg);*/
+    /*}*/
+    /*100% {*/
+        /*left: 90%;*/
+        /*top: 100%;*/
+        /*transform: scale(3,3) rotateY(180deg);*/
+    /*}*/
+/*}*/

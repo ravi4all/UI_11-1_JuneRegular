@@ -1,0 +1,68 @@
+#container {
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+#cube {
+    transform-style: preserve-3d;
+    height: 300px;
+    width: 300px;
+    animation: cube 10s infinite linear;
+}
+#cube div{
+    height: 300px;
+    width: 300px;
+    color: #fff;
+    font-size: 70px;
+    border: 2px solid transparent;
+    position: absolute;
+    transition: 1s;
+    background-color: rgba(0,0,0,0.5);
+}
+
+/*#cube:hover {
+    animation-play-state: paused;
+}*/
+
+#front {
+    background-image: url("../../images/NewImages/ageofultron-promo-art-hulk-in-action.png");
+    background-size: 100% 100%;
+}
+#back {
+    transform: translateZ(-300px);
+}
+#left {
+    transform: rotateY(90deg);
+    transform-origin: left;
+}
+#right {
+    transform: rotateY(-90deg);
+    transform-origin: right;
+}
+#top {
+    transform: rotateX(-90deg);
+    transform-origin: top;
+}
+#bottom {
+    transform: rotateX(90deg);
+    transform-origin: bottom;
+}
+
+#top:hover {
+    transform: rotateX(-90deg) scale(3,3);
+    animation-play-state: paused;
+}
+
+
+@keyframes cube {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    50% {
+        transform: rotateY(360deg) rotateX(180deg);
+    }
+    100% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+}
