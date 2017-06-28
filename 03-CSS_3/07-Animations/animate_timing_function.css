@@ -1,0 +1,67 @@
+#div_3 {
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    border: 50px double brown;
+    border-radius: 50%;
+}
+
+#image {
+    height: 500px;
+    width: 500px;
+    transition: 1s;
+    animation: cars 10s infinite;
+    animation-timing-function: linear;
+}
+#image img {
+    transform: rotate(180deg);
+    width: 30%;
+}
+
+/*#div_1 {
+    animation-timing-function: linear;
+    top: 20px;
+}
+#div_2 {
+    animation-timing-function: ease-in;
+    top: 140px;
+}*/
+#div_3 {
+    /*animation-timing-function: ease-out;*/
+    top: 50px;
+    left: 300px;
+}
+/*#div_4 {
+    animation-timing-function: ease-in-out;
+    top: 380px;
+}
+#div_5 {
+    animation-timing-function: ease;
+    top: 500px;
+}*/
+
+
+/*
+@keyframes cars {
+    0% {
+        transform: translate(0px,0px);
+    }
+    33%{
+        transform: translate(600px,0px);
+    }
+    66%{
+        transform: translate(1100px,0px) rotateZ(-180deg);
+    }
+    100% {
+        transform: translate(0px,0px) rotateZ(-180deg);
+    }
+}*/
+
+@keyframes cars {
+    0% {
+        transform: rotate3d(0,0,0,0deg);
+    }
+    100% {
+        transform: rotate3d(0,0,1,360deg);
+    }
+}

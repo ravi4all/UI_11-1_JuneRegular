@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+#header {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid red;
+}
+
+#content {
+    display: flex;
+    /*justify-content: space-between;*/
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 40%;
+    padding: 10px;
+    background-color: burlywood;
+    border: 2px solid red;
+}
