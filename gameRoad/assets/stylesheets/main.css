@@ -1,0 +1,251 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#container {
+    overflow: hidden;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+}
+#header .logo {
+
+}
+#header h1 {
+    font-family: 'press_start_2pregular';
+    text-transform: uppercase;
+    margin: 0px;
+}
+#header h1 a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#main-navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#main-navigation ul li {
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    padding: 25px 10px;
+    margin: 0px 7px;
+    position: relative;
+}
+#main-navigation ul li a {
+    color: #CCC;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#main-navigation ul li:after {
+    content: "";
+    position: absolute;
+    border: 1px solid #fff;
+    width: 20%;
+    bottom: 15px;
+    left: 25%;
+    transition: 0.5s;
+    opacity: 0;
+}
+#main-navigation ul li:hover:after {
+    width: 80%;
+    left: 10%;
+    opacity: 1;
+}
+
+
+#banner {
+    height: 650px;
+    background-size: 100% 100%;
+    animation: slider 20s infinite linear;
+}
+@keyframes slider {
+    0% {
+        background-image: url("../images/slide-1.jpg");
+    }
+    20% {
+        background-image: url("../images/slide-2.jpg");
+    }
+    40% {
+        background-image: url("../images/slide-3.jpg");
+    }
+    60% {
+        background-image: url("../images/slide-4.jpg");
+    }
+    80% {
+        background-image: url("../images/slide-5.jpg");
+    }
+    100% {
+        background-image: url("../images/slide-1.jpg");
+    }
+}
+
+.row {
+    display: flex;
+}
+
+
+#content {
+    background-attachment: fixed;
+    background-image: url("../images/tabs-bg.jpg");
+    background-size: 100% 100%;
+}
+#section_1 {
+    padding: 98px 0px;
+}
+#section_1 .description h2 {
+    font-size: 35px;
+    line-height: 39px;
+    font-weight: normal;
+    color: #fff;
+}
+#section_1 .description p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #777;
+}
+#section_1 .column {
+    width: 48%;
+    margin-right: 10px;
+}
+#section_1 .column img {
+    width: 100%;
+}
+
+#section_2 .row {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+#section_2 .column {
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+#section_2 .column img {
+    width: 100%;
+}
+#section_2 .icon {
+    width: 30%;
+    left: 100%;
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    transition: 1s;
+    z-index: 20;
+}
+#section_2 .icon h3 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+#section_2 .column:hover .icon {
+    left: 30%;
+    opacity: 1;
+    transition-delay: 1s;
+}
+#section_2 .column:after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+    top: -100%;
+    transition: 1s;
+}
+#section_2 .column:hover:after {
+    top: 0%;
+    opacity: 1;
+    transform: rotate(360deg);
+}
+
+#section_3 {
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    height: 400px;
+}
+#section_3 h2 {
+    color: #fff;
+    font-size: 30px;
+    line-height: 34px;
+    text-transform: uppercase;
+    text-align: center;
+}
+#section_3 .slider {
+    width: 200%;
+    position: absolute;
+    left: 0px;
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    animation: slider_2 20s infinite linear alternate;
+}
+@keyframes slider_2 {
+    0% {
+        left: 0%;
+    }
+    15% {
+        left: 0%;}
+    20% {
+        left: -20%;
+    }
+    35%{left: -20%;}
+    40% {
+        left: -40%;
+    }
+    55% {left: -40%;}
+    60% {
+        left: -60%;
+    }
+    75%{left: -60%;}
+    80% {
+        left: -80%;
+    }
+    95% {left: -80%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+#section_3 .slide {
+    float: left;
+    width: 10%;
+    border-right: 1px solid #fff;
+}
+#section_3 .slide img {
+    width: 100%;
+}
+#section_3 p, #section_3 h3, #section_3 a {
+    color: #fff;
+    text-decoration: none;
+}
