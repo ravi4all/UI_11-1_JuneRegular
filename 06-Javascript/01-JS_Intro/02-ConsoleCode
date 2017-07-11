@@ -1,0 +1,32 @@
+?gws_rd=ssl:1 Error in event handler for (unknown): TypeError: Cannot read property 'trace' of undefined
+    at ext.backgroundPage.sendMessage.response (chrome-extension://cfhdojbkjhnklbpkdaibdccddilifddb/include.preload.js:562:19)
+?gws_rd=ssl:1 Error in event handler for (unknown): TypeError: Cannot read property 'trace' of undefined
+    at ext.backgroundPage.sendMessage.response (chrome-extension://gighmmpiobklfepjocnamgkkbiglidom/include.preload.js:562:19)
+document.getElementById("lst-ib")
+<input class=​"gsfi" id=​"lst-ib" maxlength=​"2048" name=​"q" autocomplete=​"off" title=​"Search" type=​"text" value aria-label=​"Search" aria-haspopup=​"true" role=​"combobox" aria-autocomplete=​"both" dir=​"ltr" spellcheck=​"false" style=​"border:​ none;​ padding:​ 0px;​ margin:​ 0px;​ height:​ auto;​ width:​ 100%;​ background:​ url("data:​image/​gif;​base64,R0lGODlhAQABAID/​AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D")​ transparent;​ position:​ absolute;​ z-index:​ 6;​ left:​ 0px;​ outline:​ none;​">​
+document.getElementById("lst-ib").value = "Dhoni"
+"Dhoni"
+document.getElementsByClassName("q")
+(16) [a.q.qs, a.q.qs, a.q.qs, a.q.qs, a._VJq.q.qs, a._VJq.q.qs, a._VJq.q.qs, a.q.qs, a.q.qs, a.q.qs, a.q.qs, a.q.qs, a.q.qs, span#cdrlnk.q, a.q.qs, a.q._KCd._tWc.fl, cdrlnk: span#cdrlnk.q]cdrlnk: span#cdrlnk.qlength: 160: a.q.qs1: a.q.qs2: a.q.qs3: a.q.qs4: a._VJq.q.qs5: a._VJq.q.qs6: a._VJq.q.qs7: a.q.qs8: a.q.qs9: a.q.qs10: a.q.qs11: a.q.qs12: a.q.qs13: span#cdrlnk.q14: a.q.qs15: a.q._KCd._tWc.fl__proto__: HTMLCollection
+a = document.getElementsByClassName("q")
+(16) [a.q.qs, a.q.qs, a.q.qs, a.q.qs, a._VJq.q.qs, a._VJq.q.qs, a._VJq.q.qs, a.q.qs, a.q.qs, a.q.qs, a.q.qs, a.q.qs, a.q.qs, span#cdrlnk.q, a.q.qs, a.q._KCd._tWc.fl, cdrlnk: span#cdrlnk.q]
+a[1]
+<a class=​"q qs" href=​"/​search?q=Dhoni&safe=active&biw=1366&bih=638&source=lnms&tbm=isch&sa=X&ved=0ahUKEwispseIzoDVAhXKto8KHeJoBUQQ_AUIBygC">​Images​</a>​
+a[1].href = "http://brain-mentors.com/"
+"http://brain-mentors.com/"
+document.childNodes("div")
+VM500:1 Uncaught TypeError: document.childNodes is not a function
+    at <anonymous>:1:10
+(anonymous) @ VM500:1
+document.getElementsByTagName("div")
+(560) [div#viewport.ctr-p, div#doc-info, div#cst, div#searchform.big, div#gb.gb_T, div#gbw, div, div.gb_ib.gb_jg.gb_R.gb_ig.gb_T, div.gb_9d.gb_R.gb_jg.gb_bg, div.gb_Q.gb_R.gb_S.gb_jg, div.gb_Q.gb_R, div.gb_Q.gb_R, div.gb_tc.gb_jg.gb_R, div#gbsfw.gb_ga, div#gbwa.gb_ea.gb_Xc.gb_R, div.gb_Ec, div.gb_lb, div.gb_kb, div.gb_ha.gb_ga.gb_ua.gb_Aa, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_wa.gb_6a, div.gb_5.gb_2, div.gb_xa, div.gb_ya, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_8, div.gb_9, div.gb_aa, div.gb_ba, div.gb_Bc.gb_Xc.gb_R.gb_Cc, div.gb_Ec, div.gb_Fc.gb_Hc.gb_5b, div.gb_lb, div.gb_kb…]
+document.getElementById("gbwa")
+<div class=​"gb_ea gb_Xc gb_R" id=​"gbwa">​…​</div>​<div class=​"gb_Ec">​…​</div>​<div class=​"gb_ha gb_ga gb_ua gb_Aa" aria-label=​"Google apps" aria-hidden=​"true" role=​"region">​…​</div>​</div>​
+a = document.getElementById("gbwa")
+<div class=​"gb_ea gb_Xc gb_R" id=​"gbwa">​…​</div>​
+a.childNodes()
+VM630:1 Uncaught TypeError: a.childNodes is not a function
+    at <anonymous>:1:3
+(anonymous) @ VM630:1
+a.childNodes
+(2) [div.gb_Ec, div.gb_ha.gb_ga.gb_ua.gb_Aa]
