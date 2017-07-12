@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+    <script src="form_validation.js"></script>
+</head>
+<body>
+
+<h1>Form Validations</h1>
+
+<table>
+    <tr>
+        <td>Enter Name</td>
+        <td><input type="text" id="box_1" placeholder="Enter Name" onblur="blank_check()"/></td>
+        <td><span></span></td>
+    </tr>
+    <tr>
+        <td>Enter Password</td>
+        <td><input type="password" id="box_2" placeholder="Enter Password" onkeyup="strength_check()"/></td>
+        <td><span></span></td>
+    </tr>
+    <tr>
+        <td>Confirm Password</td>
+        <td><input type="password" id="box_3" placeholder="Confirm Password" onkeyup="conf_pwd()"/></td>
+        <td><span></span></td>
+    </tr>
+</table>
+
+
+</body>
+</html>

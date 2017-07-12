@@ -1,0 +1,21 @@
+span {
+    transition: 1s;
+    display: inline-block;
+}
+.red {
+    height: 20px;
+    width: 70px;
+    background-color: red;
+}
+
+.yellow {
+    height: 20px;
+    width: 100px;
+    background-color: #ffff00;
+}
+
+.green {
+    height: 20px;
+    width: 140px;
+    background-color: green;
+}
