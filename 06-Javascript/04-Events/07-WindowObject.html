@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        var window_obj;
+        function open_win(){
+            window_obj = window.open('','','width=100,height=100')
+            window_obj.focus();
+            window_obj.document.write("Hello World");
+            window_obj.location = "https://www.google.co.in/?gws_rd=ssl";
+        }
+        function move_win(){
+            window_obj.moveBy(300,300);
+            window_obj.focus()
+        }
+        function resize_win(){
+            window_obj.resizeTo(500,500)
+            window_obj.focus()
+        }
+        function close_win(){
+            window_obj.close()
+        }
+    </script>
+</head>
+<body>
+
+<h1>Window Object</h1>
+
+<button onclick="open_win()">Open Window</button>
+<button onclick="move_win()">Move Window</button>
+<button onclick="resize_win()">Resize Window</button>
+<button onclick="close_win()">Close Window</button>
+
+</body>
+</html>
