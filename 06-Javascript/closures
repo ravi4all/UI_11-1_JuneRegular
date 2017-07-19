@@ -1,0 +1,51 @@
+function counter(){
+var count = 0;
+function inc_counter(){
+return count +=1;
+}
+return inc_counter;
+}
+undefined
+x = counter()\
+VM427:1 Uncaught SyntaxError: Invalid or unexpected token
+x = counter()
+function inc_counter(){
+return count +=1;
+}
+x()
+1
+x()
+2
+x()
+3
+var counter = function(){
+var count = 0;
+function inc_counter(){
+return count +=1;
+}
+return inc_counter;
+}
+undefined
+counter()
+function inc_counter(){
+return count +=1;
+}
+var counter = function(){
+var count = 0;
+function inc_counter(){
+return count +=1;
+}
+return inc_counter;
+}()
+undefined
+var iife = function(){
+	console.log("Hello World")
+}()
+VM537:2 Hello World
+undefined
+iife()
+VM549:1 Uncaught TypeError: iife is not a function
+    at <anonymous>:1:1
+(anonymous) @ VM549:1
+iife
+undefined
