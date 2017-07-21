@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="owl.carousel.min.css"/>
+    <link rel="stylesheet" href="owl.theme.default.min.css"/>
+</head>
+<body>
+
+<!--<div class="owl-carousel owl-theme">
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+    <div>
+        <img src="../../images/images/NEbZRNg3YX0cfc_1_b.jpg" alt="image"/>
+    </div>
+</div>-->
+
+<div class="owl-carousel owl-theme">
+    <div class="item-video" data-merge="3">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item-video" data-merge="1">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item-video" data-merge="3">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item-video" data-merge="1">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item-video" data-merge="3">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item-video" data-merge="1">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item-video" data-merge="3">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="item-video" data-merge="1">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/LXHy8JCe0oA" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+
+<script src="../jquery-3.2.1.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+        /*$('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:2
+                }
+            }
+        })*/
+
+        $('.owl-carousel').owlCarousel({
+            items:1,
+            merge:true,
+            loop:true,
+            margin:10,
+            video:true,
+            lazyLoad:true,
+            center:true,
+            responsive:{
+                480:{
+                    items:2
+                },
+                600:{
+                    items:4
+                }
+            }
+        })
+
+    });
+</script>
+</body>
+</html>
