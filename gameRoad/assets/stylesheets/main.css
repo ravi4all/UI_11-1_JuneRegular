@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
 }
 * {
     box-sizing: border-box;
@@ -467,3 +468,54 @@ input[value="open_nav"] {
         display: block;
     }
 }
+
+
+/*
+Preloader
+*/
+#preloader {
+    position: fixed;
+    background-color: #fff;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+}
+/*#image {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}*/
+
+#div_3 {
+    height: 600px;
+    width: 600px;
+    left: 30%;
+    top: 5%;
+    position: absolute;
+    border: 50px double black;
+    border-radius: 50%;
+}
+
+#image {
+    height: 500px;
+    width: 500px;
+    transition: 1s;
+    animation: cars 10s infinite;
+    animation-timing-function: linear;
+}
+#image img {
+    transform: rotate(180deg);
+    width: 30%;
+}
+
+@keyframes cars {
+    0% {
+        transform: rotate3d(0,0,0,0deg);
+    }
+    100% {
+        transform: rotate3d(0,0,1,360deg);
+    }
+}
+
